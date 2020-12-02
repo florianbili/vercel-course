@@ -1,0 +1,135 @@
+.hautePage {
+
+    position: relative;
+
+    #wave {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: -99;
+    }
+
+
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-top: $s;
+
+
+
+    img {
+        margin: $marginLogo;
+
+
+    }
+
+
+    h3 {
+
+        font-family: $Dosis;
+        font-size: $Size40;
+        font-weight: $bold;
+
+    }
+
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10%;
+
+
+    li {
+        list-style: none;
+        padding: 20px;
+        font-family: $Poppins;
+        font-weight: $menu;
+        color: $white;
+    }
+
+
+}
+
+.networks {
+    display: flex;
+
+    #reseau {
+        margin: 230px 0px 0px 50px;
+
+        li {
+            margin: 20px;
+            list-style: none;
+
+        }
+
+    }
+
+    div:nth-child(2) {
+        width: 27%;
+        margin: 100px 0px 0px 60px;
+
+        h1 {
+
+
+            font-family: $Poppins;
+            font-weight: $menu;
+            font-size: 30px;
+            color: $grey;
+
+            u {
+                text-decoration: none;
+                font-weight: $bold;
+                font-size: 50px;
+                color: $grey;
+            }
+        }
+
+        p {
+
+            font-family: $Poppins;
+            font-weight: $light;
+            font-size: 12px;
+            width: 70%;
+            color: $greylight;
+            margin-bottom: 30px;
+        }
+    }
+
+    div:nth-child(3) {
+        width: 35%;
+        margin: auto;
+
+
+
+    }
+}
+
+
+hr {
+    width: 20px;
+    transform: rotate(90deg);
+    color: $bleu;
+    margin-left: -5px;
+}
+
+#moncercle {
+    background: $white;
+    background: url(../picto/mouse.svg) no-repeat center center;
+   
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+
+
+}

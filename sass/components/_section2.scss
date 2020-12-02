@@ -1,0 +1,29 @@
+.section2 {
+
+    width: 90%;
+    margin: 50px auto 200px auto;
+
+    #background {
+        width: 95%;
+        position: absolute;
+        top: 230vh;
+        z-index: -55;
+    }
+
+    article:nth-child(1) {
+        h3{
+
+            color: $purple;
+            font-family: $Poppins;
+            font-size: $Size25;
+            font-weight: $light;
+        }
+
+
+
+    }
+
+
+
+
+}

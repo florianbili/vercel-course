@@ -1,0 +1,48 @@
+.blocPrix {
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+
+    .info {
+        background-color: $white;
+        border-radius: 36px;
+        box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.2);
+        width: 30%;
+        padding: 50px 10px 70px 10px;
+        margin: 30px auto;
+
+
+        
+
+
+        h4{
+            font-size: $Size20;
+            font-family: $Lato;
+            color: $grey;
+            font-weight: $light;
+            text-align: center;
+            padding: 10px 30px 0px 30px;
+
+        }
+
+        p {
+            
+            text-align: center;
+            font-family: $Poppins;
+            font-size: $Size12;
+            color: $greylight;
+            padding: 25px;
+        }
+
+        p:nth-child(3){
+            font-size: $Size30;
+            font-weight: $titreInfo;
+            color: $bleufonce;
+        }
+
+
+        
+    }
+}

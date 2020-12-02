@@ -1,0 +1,46 @@
+.cta{
+    background-image: $degrade;
+    font-family: $Poppins;
+    font-size: $Size12;
+    color: $white;
+    padding: 10px 30px;
+ 
+    border-radius: 25px;
+
+    &--plusLarge{
+        @extend .cta;
+       padding: 10px 30px;
+       margin: 2%;
+
+    }
+    &--seemoreInfo{
+        @extend .cta;
+        padding: 10px 30px;
+        float:right;
+        margin: 2%;
+
+   
+
+    }
+
+    &--price{
+        @extend .cta;
+        margin: 95px;
+       
+    }
+
+    &--pricevide{
+        @extend .cta;
+        border: 2px solid $bleufonce;
+        background-image: none;
+        color: $grey;
+       margin: 95px;
+       
+        
+    }
+
+  
+
+}
+
+

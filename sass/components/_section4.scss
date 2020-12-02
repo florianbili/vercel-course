@@ -1,0 +1,32 @@
+.section4{
+padding: $s;
+    p:nth-child(1){
+        color: $purple;
+        padding:100px 10px 10px 10px;
+        font-size: $Size20;
+        font-family: $Lato;
+       width: 100%;
+        text-align: center;
+
+    }
+    h2{
+        text-align: center;
+        font-size: $Size30;
+        font-weight: $menu;
+        width: 100%;
+
+        u{
+            text-decoration: none;
+            font-weight: $bold;
+            color: $grey;
+        }
+    }
+    article{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: $xl;
+    }
+
+ 
+}
